@@ -42,3 +42,5 @@ public class Oppgave1 {
         }
     }
 }
+
+///  This ais a comment
