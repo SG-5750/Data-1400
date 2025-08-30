@@ -15,3 +15,5 @@ public class Oppgave9 {
        
     }
 }
+
+// This is only calculation
