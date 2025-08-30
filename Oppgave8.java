@@ -10,6 +10,7 @@ public class Oppgave8 {
     System.out.println(resultat);
     */
     public static void main(String[] args) {
-        
+
     }
 }
+//resultat = tall1 * 4 + (tall2 * 2 + tall1 ) / (tall2-tall1*3);

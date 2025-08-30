@@ -1,6 +1,9 @@
 package aritmetikk1;
 
+import javax.swing.*;
+
 import static javax.swing.JOptionPane.showInputDialog;
+import static javax.swing.JOptionPane.showMessageDialog;
 
 public class Oppgave10 {
     /*
@@ -10,6 +13,25 @@ public class Oppgave10 {
     eller ”Du er for ung til å ta førerkort for bil”. Gjør dette ved bruk to if-setninger.
     */
     public static void main(String[] args) {
-        
-    }
-}
+
+        String alder = showInputDialog("Hvor gammel er du? ");
+        int alder1 =Integer.parseInt(alder);
+        if (alder1 >= 18) {
+            System.out.println("Du er gammel nok for førekortet");
+            }
+
+        else {
+            int årIgjen = 18-alder1;
+            showMessageDialog();
+
+               }
+            }
+        }
+
+
+
+
+
+
+
+
